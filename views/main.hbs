@@ -1,0 +1,32 @@
+<main>
+    <div class="controls">
+        {{#if multidevice}}
+        <div class="device-selector">
+            <label for="devices">Select a device:</label>
+            <select name="devices" id="devices">
+                <option value="{{ device }}">{{ device }}</option>
+            </select>
+        </div>
+        {{/if}}
+        <div class="refresh">
+            <button onClick="window.location.reload();">Refresh</button>
+        </div>
+    </div>
+    <div class="sensor-panel">
+        <a href="/"><img src="images/Humidity Sensor_colored.svg" width=30 alt="Connected Plant"></a>
+        <h2>Temperature & Humidity</h2>
+
+        <div class="measurements">
+            <div class="m1">
+                <div class="device">{{ device }}</div>
+                <div class="datetime">{{ dateTime }}</div>
+            </div>
+            <div class="m2">
+                <div class="temperature">{{ temperature }} &degC</div>
+            </div>
+            <div class="m3">
+                <div class="humidity">{{ humidity }} %</div>
+            </div>
+        </div>
+    </div>
+</main>

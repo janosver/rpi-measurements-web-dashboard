@@ -1,0 +1,142 @@
+/*
+Colours
+
+Light blue: #33ccff
+Light green: #33cc99
+Violet: #9933ff
+
+*/
+
+html{
+    background-color: #f1f1f1; 
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    max-width: 1050px;
+    margin: auto;
+    background-color: #ffffff;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header{
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.controls {
+    display: block;
+}
+
+h1 {
+    display: inline-block;
+    color: #333333;
+    padding-left: 10px;
+}
+
+.device-selector {
+    display: inline-block;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+
+.device-selector label {
+    font-weight: 600;
+}
+
+.device-selector select {
+    margin-left: 5px;
+    font-size: 18px;
+    border-color: #9933ff;
+    background-color: #33ccff;
+    color: #9933ff;
+    border-width: 2px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.refresh {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+button {
+    border-color: #9933ff;
+    background-color: #33ccff;
+    color: #9933ff;
+    font-size: 18px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+
+.sensor-panel {
+    background-color: #33cc99;
+    max-width: 47%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.measurements {
+    display: flex;
+    align-items: center; 
+}
+
+.measurements:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.m1 {
+    float: left;
+    width: 27%;
+    padding: 5px 5px 5px 5px;
+    line-height: 2em;
+    text-align: left;
+}
+  
+.m2 {
+    float: left;
+    width: 35%;
+    padding: 5px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.m3 {
+    float: left;
+    width: 35%;
+    padding: 5px;
+    font-size: 45px;
+    text-align: right;
+}
+
+.device {
+    line-height: 1.3em;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.datetime, .temperature, .humidity{
+    line-height: 1.3em;
+    display: inline-block;
+    padding-bottom: 5px;
+}

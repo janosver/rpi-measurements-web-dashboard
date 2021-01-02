@@ -1,0 +1,26 @@
+{
+  "name": "rpi-measurements-web-dashboard",
+  "version": "1.0.0",
+  "description": "Web dashboard to view sensor measurements gathered by Raspberry Pi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janosver/rpi-measurements-web-dashboard.git"
+  },
+  "author": "Janos Ver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janosver/rpi-measurements-web-dashboard/issues"
+  },
+  "homepage": "https://github.com/janosver/rpi-measurements-web-dashboard#readme",
+  "dependencies": {
+    "dateformat": "^4.4.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "request": "^2.88.2"
+  }
+}

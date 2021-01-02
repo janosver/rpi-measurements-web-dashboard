@@ -15,4 +15,7 @@ module.exports = {
 node app.js
 ```
 
-![alt text](https://github.com/janosver/rpi-measurements-api/blob/main/screenshot.jpg?raw=true)
+![rpi-measurements-web-dashboard screenshot](https://github.com/janosver/rpi-measurements-web-dashboard/blob/main/screenshot.png)
+  
+
+

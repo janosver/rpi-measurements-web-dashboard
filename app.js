@@ -7,7 +7,7 @@ var dateFormat = require("dateformat");
 const app = express();
 app.use(express.static(__dirname + "/public"));
 
-const config = require("./config/config.js");
+const config = require("./config/config.json");
 const url = config.rpiMeasurementsApi+'/TempAndHum/'+config.device;
 
 app.set("view engine","hbs");
@@ -32,6 +32,6 @@ app.get("/", (req, res) => {
 });
 
 // set port, listen for requests
-app.listen(9000, () => {
-  console.log("Server is running on port 9000.");
+app.listen(config.port, () => {
+  console.log(`Server is running on port ${config.port}.`);
 });

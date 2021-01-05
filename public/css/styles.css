@@ -140,3 +140,36 @@ h2 {
     display: inline-block;
     padding-bottom: 5px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .measurements{
+        display: block;
+    }
+    .m1 {
+        width: 100%;
+    }
+    .m2 {
+        width: 47%;
+        text-align: left;
+    }
+    .m3 {
+        width: 47%;
+        text-align: right;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sensor-panel {
+        max-width: 100%;
+    }
+    .measurements{
+        display: block;
+    }
+    .m1, .m2, .m3 {
+        width: 100%;
+        text-align: left;
+    }
+}
+
